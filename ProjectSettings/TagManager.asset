@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - obstruction
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Pushable
+  - PushUtil
+  - 
+  - Enemy
+  - Decor\Prop
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Backdrop
+    uniqueID: 513674687
+    locked: 0
+  - name: Door
+    uniqueID: 2729151213
+    locked: 0
+  - name: Props
+    uniqueID: 485693465
+    locked: 0
+  - name: Pushables
+    uniqueID: 3986357299
+    locked: 0
+  - name: Player
+    uniqueID: 1734921617
+    locked: 0
+  - name: Darkness
+    uniqueID: 3756078417
+    locked: 0
