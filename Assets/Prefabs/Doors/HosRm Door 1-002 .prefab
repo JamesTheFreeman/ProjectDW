@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4899279812833673939
+--- !u!1 &866054563417724906
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4899279812833673936}
-  - component: {fileID: 4899279812833673937}
-  - component: {fileID: 4899279812833673942}
-  - component: {fileID: 4899279812833673943}
-  m_Layer: 11
-  m_Name: door_1
+  - component: {fileID: 866054563417724905}
+  - component: {fileID: 866054563417724904}
+  - component: {fileID: 1143955179005418115}
+  - component: {fileID: 9026701439717640474}
+  m_Layer: 0
+  m_Name: 'HosRm Door 1-002 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4899279812833673936
+--- !u!4 &866054563417724905
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279812833673939}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.07, y: -0.407, z: 0}
+  m_GameObject: {fileID: 866054563417724906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.07, y: -0.405, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4899279813810184039}
+  - {fileID: 4453845641741160006}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4899279812833673937
+--- !u!212 &866054563417724904
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279812833673939}
+  m_GameObject: {fileID: 866054563417724906}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,24 +75,24 @@ SpriteRenderer:
   m_SortingLayerID: -1565816083
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: edbe466b4d5fd8445b2bfa1214f898a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e893df022516784e834634248d1cd60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.1875}
+  m_Size: {x: 1.03125, y: 1.1875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4899279812833673942
+--- !u!61 &1143955179005418115
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279812833673939}
+  m_GameObject: {fileID: 866054563417724906}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -103,8 +103,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.1875}
-    newSize: {x: 1, y: 1.1875}
+    oldSize: {x: 1.03125, y: 1.1875}
+    newSize: {x: 1.03125, y: 1.1875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -112,22 +112,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42608333, y: 0.9965999}
   m_EdgeRadius: 0
---- !u!114 &4899279812833673943
+--- !u!114 &9026701439717640474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279812833673939}
+  m_GameObject: {fileID: 866054563417724906}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e7b12419716fda458df7a329e702f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 4899279813810184038}
+  arrow: {fileID: 4453845641741160005}
   currRoom: {fileID: 0}
   toDoor: {fileID: 0}
---- !u!1 &4899279813810184038
+--- !u!1 &4453845641741160005
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,37 +135,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4899279813810184039}
-  - component: {fileID: 4899279813810184036}
-  - component: {fileID: 4899279813810184037}
-  m_Layer: 11
-  m_Name: upArrow
+  - component: {fileID: 4453845641741160006}
+  - component: {fileID: 4453845641741160008}
+  - component: {fileID: 4453845641741160007}
+  m_Layer: 0
+  m_Name: Up Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4899279813810184039
+  m_IsActive: 1
+--- !u!4 &4453845641741160006
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279813810184038}
+  m_GameObject: {fileID: 4453845641741160005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.68, z: 0}
-  m_LocalScale: {x: 0.2993, y: 0.2993, z: 0.2993}
+  m_LocalPosition: {x: 0.01999998, y: 0.72, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
-  m_Father: {fileID: 4899279812833673936}
+  m_Father: {fileID: 866054563417724905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4899279813810184036
+--- !u!212 &4453845641741160008
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279813810184038}
+  m_GameObject: {fileID: 4453845641741160005}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -200,8 +200,8 @@ SpriteRenderer:
   m_SortingLayerID: -1565816083
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7b70b0427ccf57469f70fab29c4bfa6, type: 3}
-  m_Color: {r: 0.8679245, g: 0.84574664, b: 0.79013884, a: 0.4627451}
+  m_Sprite: {fileID: 21300000, guid: dd9b81409696a734ea9838ff45731c0e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.30588236}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -211,17 +211,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4899279813810184037
+--- !u!114 &4453845641741160007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4899279813810184038}
+  m_GameObject: {fileID: 4453845641741160005}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 789eb05063d19994ab4c15b0cf10300e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothTime: 0.493
-  dist: 0.027
+  smoothTime: 0.508
+  dist: 0.047

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class door : MonoBehaviour
 {
@@ -93,11 +94,13 @@ public class door : MonoBehaviour
                 Surprisingly fast lol, thanks Unity
             */
             player.SetActive(false);                                                                // Disable player
-            currRoom.GetComponent<roomPropLink>().unloadProps();                                    // Unload room props
+            try{currRoom.GetComponent<roomPropLink>().unloadProps();}                               // Unload room props
+            catch(NullReferenceException e){ Debug.Log(e + "No proplink found, skipping..."); }                                           
             currRoom.SetActive(false);                                                              // Unload room
 
             toRoom.SetActive(true);                                                                 // Load new room
-            toRoom.GetComponent<roomPropLink>().loadProps();                                        // Load new room props
+            try{toRoom.GetComponent<roomPropLink>().loadProps();}                                   // Load new room props
+            catch(NullReferenceException e){ Debug.Log(e + "No proplink found, skipping..."); } 
 
             player.transform.position =                                                             // Move player
                 new Vector2(toDoor.transform.localPosition.x, playerY);                         
