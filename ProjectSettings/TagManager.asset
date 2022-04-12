@@ -57,6 +57,9 @@ TagManager:
   - name: Player
     uniqueID: 1734921617
     locked: 0
+  - name: ForeDoor
+    uniqueID: 2299079549
+    locked: 0
   - name: Darkness
     uniqueID: 3756078417
     locked: 0

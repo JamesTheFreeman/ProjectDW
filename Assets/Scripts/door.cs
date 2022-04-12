@@ -95,12 +95,12 @@ public class door : MonoBehaviour
             */
             player.SetActive(false);                                                                // Disable player
             try{currRoom.GetComponent<roomPropLink>().unloadProps();}                               // Unload room props
-            catch(NullReferenceException e){ var x = e; Debug.Log("Skipping props"); }                                           
+            catch(NullReferenceException e){ var x = e; }                                           
             currRoom.SetActive(false);                                                              // Unload room
 
             toRoom.SetActive(true);                                                                 // Load new room
             try{toRoom.GetComponent<roomPropLink>().loadProps();}                                   // Load new room props
-            catch(NullReferenceException e){ var x = e; Debug.Log("Skipping props"); } 
+            catch(NullReferenceException e){ var x = e; } 
 
             player.transform.position =                                                             // Move player
                 new Vector2(toDoor.transform.localPosition.x, playerY);                         
